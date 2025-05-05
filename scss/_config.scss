@@ -1,0 +1,17 @@
+// Variables
+
+$primary-color: #ffae00;
+$btn-color: #bd3eeb;
+$website-width: 80%;
+$light-color: #999999;
+$dark-color: #333;
+
+// Set Text Color
+
+@function set-text-color($color) {
+  @if (lightness($color) > 50%) {
+    @return $dark-color;
+  } @else {
+    @return $light-color;
+  }
+}
