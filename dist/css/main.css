@@ -162,7 +162,6 @@ hr.styled {
 @media screen and (max-width: 800px) {
   nav {
     flex-direction: column;
-    padding-top: 0 !important;
   }
   nav h2 {
     margin-bottom: 0.5rem;
@@ -204,17 +203,21 @@ hr.styled {
     font-size: 1rem !important;
   }
   #header-inner {
-    height: 10vh !important;
+    height: 130px !important;
   }
   #header-inner:before {
-    height: 10vh !important;
+    height: 130px !important;
   }
   #header-inner .container {
-    height: 10vh !important;
+    height: 130px !important;
     padding: 1rem 0;
   }
   .header-content {
     height: 90vh !important;
+  }
+  .project-content:hover .project-overlay {
+    transform: translate(-7rem, -35rem) rotate(25deg);
+    width: 180% !important;
   }
 }
 @keyframes slide-top {
