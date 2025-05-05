@@ -162,6 +162,7 @@ hr.styled {
 @media screen and (max-width: 800px) {
   nav {
     flex-direction: column;
+    padding-top: 0 !important;
   }
   nav h2 {
     margin-bottom: 0.5rem;
@@ -203,17 +204,17 @@ hr.styled {
     font-size: 1rem !important;
   }
   #header-inner {
-    height: 20vh !important;
+    height: 10vh !important;
   }
   #header-inner:before {
-    height: 20vh !important;
+    height: 10vh !important;
   }
   #header-inner .container {
-    height: 20vh !important;
+    height: 10vh !important;
     padding: 1rem 0;
   }
   .header-content {
-    height: 80vh !important;
+    height: 90vh !important;
   }
 }
 @keyframes slide-top {
